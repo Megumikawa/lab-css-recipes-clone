@@ -12,19 +12,22 @@ body {
 }
 
 .apple-pie {
-  position: relative;
-  width: 100vw;
   height: auto;
+  width: 100vw;
+}
+
+.header {
+  position: relative;
 }
 
 h1 {
-  position: absolute;
-  top: 50%;
-  right: 48%;
   color: #fff;
   font-size: 9rem;
   font-weight: bold;
   letter-spacing: 0.1em;
+  position: absolute;
+  top: 40%;
+  right: 40%;
 }
 
 .container {
@@ -37,8 +40,8 @@ h1 {
 }
 
 .cont-group {
-  margin: 0 50px;
   border-bottom: 2px solid #a59e97;
+  margin: 0 50px;
   padding-bottom: 20px;
 }
 
